@@ -5,15 +5,20 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastros.API", "Cadastros.API\Cadastros.API.csproj", "{ACF4A3B9-E0EC-4EF3-AD82-C166553591DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros.Domain", "Cadastros.Domain\Cadastros.Domain.csproj", "{9BE0EC42-CDAF-417D-BFB8-C7F275805907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastros.Domain", "Cadastros.Domain\Cadastros.Domain.csproj", "{9BE0EC42-CDAF-417D-BFB8-C7F275805907}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros.Application", "Cadastros.Application\Cadastros.Application.csproj", "{3C31E86A-95B9-46FB-96A3-E4A76B2487D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastros.Application", "Cadastros.Application\Cadastros.Application.csproj", "{3C31E86A-95B9-46FB-96A3-E4A76B2487D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros.CrossCutting", "Cadastros.CrossCutting\Cadastros.CrossCutting.csproj", "{A3B9B357-C2E7-4D07-B1B1-4D30CFF17B37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastros.CrossCutting", "Cadastros.CrossCutting\Cadastros.CrossCutting.csproj", "{A3B9B357-C2E7-4D07-B1B1-4D30CFF17B37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros.Data", "Cadastros.Data\Cadastros.Data.csproj", "{2B7D95EA-1B5B-4567-B7D4-6D8AC8F7222D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastros.Data", "Cadastros.Data\Cadastros.Data.csproj", "{2B7D95EA-1B5B-4567-B7D4-6D8AC8F7222D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastros.Tests", "Cadastros.Tests\Cadastros.Tests.csproj", "{08B5929A-6C56-4BFE-AD1C-61B6C988002C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cadastros.Tests", "Cadastros.Tests\Cadastros.Tests.csproj", "{08B5929A-6C56-4BFE-AD1C-61B6C988002C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1527C3A4-4EAB-4381-ACA8-21A26B307296}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
