@@ -4,7 +4,7 @@ public class Email
 {
     public string Valor { get; set; }
 
-    protected Email() { /* for EF */ }
+    protected Email() { }
 
     public Email(string email)
     {
