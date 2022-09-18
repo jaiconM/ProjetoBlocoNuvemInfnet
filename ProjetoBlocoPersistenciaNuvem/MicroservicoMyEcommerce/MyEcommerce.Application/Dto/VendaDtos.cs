@@ -17,6 +17,7 @@ public record VendaOutputDto(
     DateTime Data,
     ClienteOutputDto Cliente,
     string Vendedor,
+    decimal ValorTotal,
     List<ItemVendaOutputDto> ItensVenda
 );
 
@@ -36,5 +37,6 @@ public record ItemVendaOutputDto(
     string CodigoProduto,
     string Produto,
     decimal Quantidade,
-    decimal ValorUnitario
+    decimal ValorUnitario,
+    decimal ValorTotal
 );

@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MyEcommerce.Data.AzureBlobStorageHelper;
+using MyEcommerce.Data.AzureDataTableHelper;
 using MyEcommerce.Data.Contexto;
 using MyEcommerce.Data.Database;
 using MyEcommerce.Data.Repository;
@@ -17,8 +18,10 @@ public static class ConfigurationModule
         services.AddScoped(typeof(Repository<>));
         services.AddScoped<IClienteRepository, ClienteRepository>();
         services.AddScoped<IVendaRepository, VendaRepository>();
+        services.AddScoped<IProdutoRepository, ProdutoRepository>();
         services.AddScoped<IItemVendaRepository, ItemVendaRepository>();
         services.AddScoped<IAzureBlobStorage, AzureBlobStorage>();
+        services.AddScoped<IAzureDataTable, AzureDataTable>();
 
         return services;
     }

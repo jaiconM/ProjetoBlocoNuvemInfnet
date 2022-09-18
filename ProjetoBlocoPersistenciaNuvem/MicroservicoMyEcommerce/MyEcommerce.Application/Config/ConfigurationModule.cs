@@ -12,6 +12,7 @@ public static class ConfigurationModule
 
         services.AddMediatR(typeof(ConfigurationModule).Assembly);
 
+        services.AddScoped<IProdutoService, ProdutoService>();
         services.AddScoped<IClienteService, ClienteService>();
         services.AddScoped<IVendaService, VendaService>();
 

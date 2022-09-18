@@ -8,7 +8,7 @@ public class Venda : Entity<Guid>
     public Cliente Cliente { get; set; }
     public string Vendedor { get; set; }
     public List<ItemVenda> ItensVenda { get; set; }
-    public decimal ValorTotal => ItensVenda.Sum(item => item.ValorUnitario);
+    public decimal ValorTotal => ItensVenda.Sum(item => item.ValorTotal);
     public Venda()
     {
         ItensVenda = new List<ItemVenda>();

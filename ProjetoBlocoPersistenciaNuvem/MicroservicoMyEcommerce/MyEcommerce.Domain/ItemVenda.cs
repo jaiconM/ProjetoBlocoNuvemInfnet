@@ -8,4 +8,5 @@ public class ItemVenda : Entity<Guid>
     public string Produto { get; set; }
     public decimal Quantidade { get; set; }
     public decimal ValorUnitario { get; set; }
+    public decimal ValorTotal => Quantidade * ValorUnitario;
 }
